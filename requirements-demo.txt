@@ -1,0 +1,10 @@
+# BAS-HAR using AI — demo requirements only.
+# Demo mode (FSM + rule-based recogniser + API + dashboard) needs nothing
+# else. No OpenCV, no MediaPipe, no YOLO, no torch, no GPU, no camera.
+# Install: pip install -r requirements-demo.txt
+numpy>=1.26
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.33
+pydantic>=2.6
+pytest>=8.0

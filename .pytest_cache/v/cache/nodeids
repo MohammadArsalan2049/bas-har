@@ -1,0 +1,10 @@
+[
+  "tests/test_protocol.py::test_correct_sequence_passes",
+  "tests/test_protocol.py::test_low_confidence_held_not_flagged",
+  "tests/test_protocol.py::test_protocol_loads_from_json",
+  "tests/test_protocol.py::test_recovery_after_error",
+  "tests/test_protocol.py::test_skipped_step_flagged",
+  "tests/test_protocol.py::test_temporal_confirmer_holds_transient_detection",
+  "tests/test_protocol.py::test_unknown_activity_flagged",
+  "tests/test_protocol.py::test_wrong_order_flagged"
+]

@@ -1,0 +1,17 @@
+# BAS-HAR using AI — full requirements (webcam + ML)
+# Install: pip install -r requirements.txt
+# CPU-only torch: use the CPU wheel index (see README).
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+numpy>=1.26
+opencv-python>=4.9
+mediapipe>=0.10
+ultralytics>=8.2
+torch>=2.2
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.33
+pydantic>=2.6
+onnxruntime>=1.18
+pyttsx3>=2.90
+pytest>=8.0
